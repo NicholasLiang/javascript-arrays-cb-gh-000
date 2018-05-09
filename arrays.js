@@ -1,5 +1,5 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-addElementToBeginningOfArray = chocolateBars.push('foo');
+addElementToBeginningOfArray = (array, element) = 
 
 
 
