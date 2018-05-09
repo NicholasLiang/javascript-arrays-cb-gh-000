@@ -1,5 +1,5 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-function addElementToBeginningOfArray = (array, element) = [element, ...array];
+var addElementToBeginningOfArray = (array, element) = [element, ...array];
 
 
 // describe('arrays', () => {
