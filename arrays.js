@@ -1,5 +1,7 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
-var addElementToBeginningOfArray(array, element)
+var addElementToBeginningOfArray(array, element) = {
+  
+}
 
 
 // describe('arrays', () => {
