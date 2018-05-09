@@ -1,4 +1,6 @@
-chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
+chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+addElementToBeginningOfArray = chocolateBars.push('foo');
+
 
 
 describe('arrays', () => {
