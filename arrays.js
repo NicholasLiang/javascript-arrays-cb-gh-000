@@ -1,4 +1,4 @@
-
+chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 
 describe('arrays', () => {
