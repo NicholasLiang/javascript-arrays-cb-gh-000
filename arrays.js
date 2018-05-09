@@ -6,5 +6,5 @@ var destructivelyAddElementToEndOfArray = (array, element) => array.push(element
 var destructivelyRemoveElementFromBeginningOfArray = (array) => array.shift();
 var removeElementFromBeginningOfArray = (array) => array.slice(1);
 var removeElementFromEndOfArray = (array) => array.slice(0, array.length-1);
-var destructivelyRemoveElementFromEndOfArray = (array, element) => array.pop();
+var destructivelyRemoveElementFromEndOfArray = (array) => array.pop();
 var accessElementInArray = (array, index) => array[index];
