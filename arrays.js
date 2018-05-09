@@ -1,23 +1,11 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 var addElementToBeginningOfArray = (array, element) => [element, ...array];
 var destructivelyAddElementToBeginningOfArray = (array, element) => array.unshift(element);
-var addElementToEndOfArray = (array, element) => array.push(element); 
+var addElementToEndOfArray = (array, element) => [];
 
 
 
-//   describe('addElementToEndOfArray(array, element)', () => {
-//     it('adds an element to the end of an array', () => {
-//       expect(addElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
-//     })
 
-//     it('does not alter the original array', () => {
-//       const array = [1]
-
-//       addElementToEndOfArray(array, 'foo')
-
-//       expect(array).to.eql([1])
-//     })
-//   })
 
 //   describe('destructivelyAddElementToEndOfArray(array, element)', () => {
 //     it('adds an element to the end of an array', () => {
