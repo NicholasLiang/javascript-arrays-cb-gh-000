@@ -5,7 +5,7 @@ var addElementToEndOfArray = (array, element) => [...array, element];
 var destructivelyAddElementToEndOfArray = (array, element) => array.push(element);
 var destructivelyRemoveElementFromBeginningOfArray = (array) => array.shift();
 var removeElementFromBeginningOfArray = (array) => array.slice(1);
-var destructivelyRemoveElementFromBeginningOfArray = (array, element) => array.shift();
+var destructivelyRemoveElementFromBeginningOfArray = (array, element) => array.shift();var destructivelyRemoveElementFromBeginningOfArray = (array, element) => array.shift();
 
 
 
@@ -14,21 +14,6 @@ var destructivelyRemoveElementFromBeginningOfArray = (array, element) => array.s
 
 
   
-
-
-//   describe('removeElementFromBeginningOfArray(array)', () => {
-//     it('removes the first element from the array', () => {
-//       expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
-//     })
-
-//     it('does not alter the original array', () => {
-//       const array = [1, 2, 3];
-
-//       removeElementFromBeginningOfArray(array);
-
-//       expect(array).to.eql([1, 2, 3]);
-//     })
-//   })
 
 //   describe('destructivelyRemoveElementFromEndOfArray(array)', () => {
 //     it('returns the array with the last element removed', () => {
